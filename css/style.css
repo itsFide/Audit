@@ -1276,7 +1276,7 @@ input[type="checkbox"]:checked + label::before{
         align-items: flex-end;
     }
     .alternative-form-logo{
-        transform: translate(18px,-2px);
+        transform: translate(20px,-9px);
     }
     .form-title{
         margin-top: 0;
