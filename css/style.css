@@ -1328,4 +1328,7 @@ input[type="checkbox"]:checked + label::before{
     .reasons-items{
         margin-right: 40px;
     }
+    .testimonials-slide.swiper-slide img{
+        width: 100%;
+    }
 }
