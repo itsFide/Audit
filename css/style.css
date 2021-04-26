@@ -1314,9 +1314,9 @@ input[type="checkbox"]:checked + label::before{
     .how-work-descr-text p{
         font-size: 16px;
     }
-    .how-work-item:nth-child(even){
+    /* .how-work-item:nth-child(even){
         transform: translateX(35px);
-    }    
+    }     */
     .how-work{
         overflow: hidden;
     }
@@ -1329,6 +1329,20 @@ input[type="checkbox"]:checked + label::before{
         margin-right: 40px;
     }
     .testimonials-slide.swiper-slide img{
+        width: 100%;
+    }
+    .how-work-item{
+        width: 70%;
+    }
+    .row{
+        padding-right: 40px; 
+    }
+    .how-work-item:nth-child(odd)>.how-work-item-descr{
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:320px){
+    .how-work-item{
         width: 100%;
     }
 }
